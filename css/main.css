@@ -1,156 +1,158 @@
-/****** BASE STYLES ******/
-
+/***** BASE STYLES *****/
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #2b2b2b;
+font-family: 'PT+Sans', sans-serif;
+color: #000000;
+background-color: #ffffff;
 }
 
-/****** GRID ******/
-
+/***** GRID *****/
 .full-width {
     width: 1200px;
     margin: 0 auto;
     overflow: auto;
 }
 .half-width {
-    width: 600px;
-    float: left;
+  width: 600px;
+  float: left;
 }
 .third-width {
-    width: 400px;
-    float: left;
+  width: 400px;
+  float: left;
 }
 
-/****** HEADER ******/
-
+/***** header *****/
 header {
-    height: 800px;
-    background: url('../img/full-background.png');
-    background-size: cover;
-    background-position: center;
+    background-color: #ebebeb;
+    overflow: auto;
+    height: 500px;
+    padding-top: 35px;
 }
 
-header h1 {
-    font-family: 'Lora', serif;
-    font-size: 30px;
-    color: #bbc085;
-    padding: 65px 0 65px 25px;
+header img {
+height: 450px;
+    margin-top: -70px;
+    margin-bottom: -80px;
+    margin-left: -50px;
 }
 nav {
     float: right;
     padding: 75px 25px;
 }
-nav ul li{
+nav ul li {
     display: inline-block;
 }
 nav ul li a {
+    color: #2b2b2b;
+    font-family: 'Outfit', serif;
+    font-size: 20px;
     text-transform: uppercase;
-    text-decoration: none;
-    font-size: 18px;
-    color: #828282;
-    padding-left: 80px;
+    padding-left: 70px;
 }
 header h2 {
-    width: 1000px;
     clear: both;
-    font-family: 'Lora', serif;
-    font-size: 72px;
-    line-height: 80px;
-    color: #9b9b9b;
-    padding: 20px 0 20px 25px;
-}
-header h2 span {
-    color: #2b2b2b;
+    color: #ddb423;
+    font-family: 'Yellowtail', cursive;
+    font-size: 70px;
+    line-height: 100px;
+    padding: 20px 0px 5px 25px;
+    width: 1200px;
+    overflow: auto;
+    text-align: center;
 }
 
-/****** ABOUT ******/
-
+/***** ABOUT *****/
 #about .full-width {
-    padding: 80px 0;
+    font-family: 'PT+Sans', sans-serif;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 30px 0;
 }
-
 #about h2 {
-    font-family: 'Lora', serif;
-    font-size: 36px;
+    font-family: 'PT+Sans', sans-serif;
+    color: #525f66;
+    font-size: 40px;
     padding-left: 50px;
+    margin-bottom: -5px;
 }
 #about p {
+    color: #000000;
+    font-family: 'PT+Sans', serif;
     font-size: 21px;
-    color: #7f7f7f;
     line-height: 40px;
+    margin-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-/****** WORK ******/
-
+/***** WORK *****/
 #work {
-    background-color: #f9ceb7;
-    text-align: center;
+  background-color: #ddb423;
 }
-
 #work .full-width {
-    padding: 115px 0;
+    padding: 30px 0;
 }
-
-#work img {
-    padding-bottom: 30px;
-}
-
 #work h3 {
-    font-size: 24px;
-    line-height: 32px;
-    width: 190px;
-    margin: 0 auto;
+  font-family: 'PT+Sans', sans-serif;
+  color: #525f66;
+  font-size: 40px;
+  padding-left: 50px;
+  margin-bottom: -5px;
 }
-
+#work .third-width {
+  padding: 30px 0;
+}
 #work p {
-    font-family: 'Lora', serif;
+    color: #000000;
+    font-family: 'Outfit', serif;
     font-size: 18px;
     line-height: 30px;
     padding: 0 50px;
+    text-align: center;
 }
 
-/****** CONTACT ******/
-
+/**** contact ****/
 #contact {
-    background-color: #ebebeb;
+    background-color: #525f66;
 }
 #contact .full-width {
-    padding: 110px 0;
+    padding: 80px 0;
 }
-#contact img#contact-img {
+#contact div img {
+    height: 400px;
+    margin-top: -50px;
     margin-left: 25px;
-    border: 12px solid #ffffff;
+    border-radius: 15px;
 }
 #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
     padding-left: 115px;
 }
-#contact #envelope {
-    padding: 0 10px 0 115px;
-}
+
 #contact h2 {
-    font-family: 'Lora', serif;
-    font-size: 36px;
-    line-height: 44px;
+    color:#ebebeb;
+    font-size: 40px;
 }
-#contact #email-header{
-    font-size: 32px;
+#contact #email-header {
+    color: #000000;
+    font-family: 'Outfit', serif;
+    font-size: 28px;
     font-weight: 400;
     line-height: 44px;
     margin: -30px 0 5px 0;
 }
 #contact #socialmedia-header {
-    font-weight: bold;
-    font-size: 29px;
+    color: #000000;
+    font-family: 'Outfit', serif;
+    font-weight: lighter;
+    font-size: 34px;
     line-height: 44px;
     margin: 40px 0 0 0;
 }
 #contact a {
+    color: #000000;
+    font-family: 'Outfit', serif;
     text-decoration: none;
-    color: #c49075;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 20px;
 }
 #contact ul {
     list-style: none;
